@@ -3,7 +3,7 @@
 #############################
 
 # Set working directory
-setwd("C:/Users/Mike/Dropbox/MAYV_NHP_prediction")
+setwd("~/Dropbox/MAYV_NHP_prediction")
 
 # Necessary packages
 map_packages <- c("sp", "rgeos", "maps", "mapdata", "maptools", "geosphere", "ggplot2", "viridis", "cowplot",
