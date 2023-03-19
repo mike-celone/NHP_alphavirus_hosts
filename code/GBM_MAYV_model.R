@@ -288,5 +288,5 @@ eval_test.null <- sapply(output.null,
                          function(x) caTools::colAUC(x[,1],x[,2]))
 
 
-# Final corrected AUC
+# Calculate final corrected AUC
 mean(eval_test) - (mean(eval_test.null)-0.5)
